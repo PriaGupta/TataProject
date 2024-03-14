@@ -1,0 +1,704 @@
+*{
+ font-family:'Roboto',sans-serif;
+}
+.start-tata {
+    background: #466ab0;
+	    height: 55px;
+}
+.icon {
+    margin: 15px 0;
+}
+.icon1 span a i {
+    color: white;
+}
+.icon1 {
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.icon2 {
+    margin: 6px 0;
+}
+.icon2 ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+}
+.text i {
+    color: white;
+    font-size: 23px;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+.box {
+    font-size: 15px;
+}
+.box p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.f1 {
+    font-weight: 600;
+	color:white;
+}
+.f2{
+	color: #b9d2ff;
+}
+.show-cars-menu a {
+    color: black;
+    font-weight: 700;
+}
+.cars-variety {
+    background: #181E23;
+    color: #fff;
+    position: absolute;
+    width: 1140px;
+    right: -10px;
+    display: block;
+    opacity: 0;
+    height: 0;
+    transition: all 0.4s ease;
+     margin: 0px 300px;
+}
+ .show-cars-menu:hover .cars-variety {
+    opacity: 1;
+    height: auto;
+    z-index: 999999;
+    margin-top: 20px;
+	text-decoration:none;
+}
+/* ========== */
+.head-one {
+    margin: 15px 0;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.logo {
+    width: 100%;
+    max-width: 150px;
+    object-fit: cover;
+}
+.menu {
+    display: flex;
+	margin: 4px 0px;
+}
+.menu ul {
+    display: flex;
+    gap: 37px;
+}
+
+.menu2 {
+    display: flex;
+}
+.first li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Rubik';
+}
+.two {
+    margin-top: -12px;
+    margin-right: 20px;
+}
+#a1 {
+    background-color:  #466ab0;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140%;
+    height: 130%;
+    border-radius: 25px;
+	color: white;
+}
+#a1:hover {
+    color: white;
+    background-color: #0d392f;
+}
+
+/* ----about---- */
+
+.about-image {
+    position: absolute;
+    left: 0;
+}
+.about-one h2 {
+    font-weight: bold;
+    font-size: 50px;
+	font-family: 'Rubik', sans-serif;
+}
+.about-one span {
+    color: #466ab0;
+	font-family: 'Rubik', sans-serif;
+}
+.about {
+    padding: 100px 0;
+}
+.about-two {
+    padding: 110px 0;
+}
+.about-one-two p {
+    font-size: 18px;
+    padding: 16px 0px;
+}
+.btn {
+    list-style: none;
+    border-radius: 30px;
+    background-color: #466ab0;
+    color: white;
+    font-size: 22px;
+    width: 70%;
+    max-width: 60%;
+    font-weight: 600;
+}
+.about-two-one {
+    background: rgb(247,247,247);
+    visibility: visible;
+    border: 7px solid white;
+    padding: 32px;	
+}
+.about-two-two {
+    background: rgb(239, 245, 255);
+    visibility: visible;
+    border: 7px solid #fff;
+    padding: 31px;	
+}
+
+.imageone {
+    right: 12%;
+    position: absolute;
+    top: 80px;
+}
+.imagetwo {
+    background-color: black;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    /* line-height: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagetwo img {
+    width: 100%;
+    object-fit: cover;
+    max-width: 55px ;
+}
+.imagecontent h5 {
+    font-size: 28px;
+    margin-bottom: 16px;
+    margin-top: 25px;
+    font-weight: bold;
+    color: black;
+}
+.imagecontent {
+    font-size: 21px;
+    color: grey;
+}
+.video-one {
+	background-image: url(img/video-img1.jpg);   
+    background-position: center;
+    background-size: cover;
+    height: 370px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    border-radius: 30px;  
+	    bottom: 20px;
+}
+.video-one:hover{
+ color:pink;
+}
+.video-two {
+	background-image: url(img/video-img2.jpg);   
+    background-position: center;
+    background-size: cover;
+    height: 370px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    border-radius: 30px;  
+}
+.video-content {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+	bottom: 40px;
+}
+.video-content a {
+    z-index: 9;
+    font-size: 35px;
+    color: #000;
+    /* height: 32%; */
+    width: 15%;
+    bottom: 170px;
+    padding: 5px 10px;
+    /* padding-top: 5px; */
+    /* padding-bottom: 5px; */
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+    background: #fff;
+    border-radius: 60%;
+    display: inline-block;
+    position: absolute;
+}
+   
+.video-content h2 {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.video-content p {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    /* padding: 0px 60px; */
+    line-height: 24px;
+}
+/*-------our cars-------*/
+.car-back-image {
+    background-image: url(img/carbackimg.jpg);
+    padding: 50px 0;
+    background-size: cover;
+}
+.ourcar h2 {
+    font-size: 50px;
+    font-weight: 600;
+	padding: 30px 0px;
+}
+.ourcar h2 span {
+    color: #466ab0;
+}
+.all-car {
+    background-color: white;
+	margin-bottom: 30px;
+}
+.carz {
+    text-align: center;
+    width: 100%;
+}
+.carz img {
+    object-fit: contain;
+    height: 180px;
+}
+.carz2.text-center {
+    padding: 20px 0;
+    font-size: 20px;
+	font-weight: 600;
+    color: #898989;
+}
+.carz2.text-center h4 {
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+
+/* -----ev cars----*/
+.ev-modal {
+    background: #eff5ff;
+	padding-bottom: 60px;
+}
+.evcar h2 {
+    font-size: 50px;
+    font-weight: 600;
+	padding: 30px 0px;
+}
+.evcar h2 span {
+    color: #466ab0;
+}
+.allev-car {
+    background-color: white;
+	margin-bottom: 30px;
+}
+.ev-car img {
+    width: 100%;    
+    object-fit: cover;
+    height: 195px;
+}
+.ev-car.text-center {
+    padding: 20px 0;
+    font-size: 20px;
+	font-weight: 600;
+    color: #898989;
+}
+.ev-car.text-center h4 {
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+/*request to call*/
+.cont {
+    padding: 50px 0px;
+}
+#contactForm {
+    border: 2px solid black;
+    padding: 30px 30px;
+    border-radius: 20px;
+    background: #69696969;
+}
+.bimg-two img {
+    margin-top: 100px;
+    position: absolute;
+}
+.inner-row {
+    margin-top: 150px;
+	    margin-bottom: 100px;
+}
+.sec1 h2 {
+    font-size: 50px;
+    font-weight: 700;
+	font-family: 'Rubik', sans-serif;
+}
+.sec1 span {
+    color: #466ab0;
+	font-family: 'Rubik', sans-serif;
+}
+.sec1 p {
+    font-size: 20px;
+    line-height: 45px;
+    margin-bottom: 35px;
+	color: #898989;
+}
+.sec1 img {
+    border-radius: 10px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.head1 h3 {
+    padding: 18px 85px;
+    font-size: 32px;
+    background-color: black;
+    color: white;
+	font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+	
+}
+.head2 {
+    background-color: whitesmoke;
+    padding: 15px 0;
+	margin-top: -10px;
+}
+.form-fild {
+    text-align: center;
+    padding-top: 25px;
+}
+.form-fild input {
+    padding: 10px 160px 10px 10px;
+	    font-size: 20px;
+}
+.form-fild textarea {
+    width: 86%;
+    font-size: 18px;
+    padding: 12px 17px;
+}
+.form-fild2 {
+    text-align: center;
+    padding-top: 20px;
+}
+.form-fild2 input {
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    background-color: #466ab0;
+    color: white;
+    padding: 10px 165px;
+}
+/*--------dropdown----*/
+
+.dropdown a {  
+	text-decoration: none;
+}
+
+.dropdown-menu a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+    
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    border: 4px solid #466AB0;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.dropdown-menu a:hover {
+    color: #466ab0;
+	background-color: transparent;
+}
+
+/* ---------FOOTER-------- */
+
+footer.footer-distributed {
+    background-color: #181e23;
+}
+.footer {
+    margin: 60px 0;
+}
+.footer-one ul {
+    list-style: none;
+}
+.footer-one a {
+    background-color: white;
+    border-radius: 60px;
+    font-size: 45px;
+}
+.footer-one img {
+    margin-bottom: 25px;
+    margin-left: 35px;
+}
+.footer-one i {
+    color: #777;
+    font-size: 22px;
+    text-align: center;
+    width: 18%;
+    height: 9%;
+}
+.footer-one span {
+    font-size: 13px;
+    color: white;
+	 display: inline-block;
+}
+.footer-two {
+    color: white;
+    font-size: 14px;
+}
+.footer-two h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 18px;
+    margin-top: 8px;
+}
+.footer-two ul {
+    list-style: none;
+    padding: 30px 20px;
+}
+.footer-two li {
+    margin: 20px 0px;
+}
+.footer-three {
+    color: white;
+    font-size: 20px;
+}
+.footer-three h3 {
+    margin: 6px 0;
+    font-weight: 600;
+    font-size: 22px;
+}
+.footer-link {
+    margin: 55px 0;
+}
+.m1 input {
+    padding: 15px 5px;
+	    border-radius: 12px;
+}
+.footer-link a {
+   
+    background-color: white;
+    border-radius: 35px;
+    font-size: 30px;
+    padding: 5px 15px;
+}
+.footer-link i {
+    color: black;
+    font-size: 24px;
+}
+.bttn {
+    display: inline;
+    font-size: 0px;
+    padding: -7px;
+}
+.bttn input {
+    margin: 0 -120px;
+    border-radius: 10px;
+    color: white;
+    background: blue;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+.copyright-wrap {
+    background: #eff5ff;
+    padding: 15px 0;
+    color: #181e23;
+    font-size: 15px;
+}
+.pri {
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+}
+.pri a {
+    color: black;
+}
+
+/* cars.html*/
+.cars-variety {
+    background-color: #181E23;
+	    color: white;
+}
+.all {
+    margin: 0px 190px;
+}
+.car-one h4 {
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+.all-one {
+    margin: 0 110px;
+}
+.all-two {
+    margin: 0 160px;
+	    margin-bottom: 10px;
+}
+
+.car-two img {
+    width: 100%;
+    height: 28%;
+    object-fit: contain; 
+}
+.head1 {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 10px;
+    border-bottom: 1px solid #283037;
+}
+.car-two h4 {
+    text-align: center;
+	font-weight: 600;
+}
+
+/*----------------dropdownbutton--------*/
+.first .aee #ab:hover {
+    display: none;
+    position: absolute;
+    background-color: #ffff;
+    min-width: 250px;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+    margin-top: 15px;
+    border-top: 4px solid #626e85;
+    box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+    -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+}
+
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu a:hover {background-color: #181E23;}
+
+.dropdown:hover .dropdown-menu {display: block;}
+
+@media screen and (max-width: 777px) {
+    header {
+      display: none;
+    }
+  }
+  #contacth {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+  
+  /*===============visiontata css =============*/
+
+ .nav-item {
+    padding-right: 25px;
+    font-size: 18px;
+	font-weight:700;
+}
+.nav_button span a:hover {
+    color: white;
+    background:  black;
+	text-decoration:none;
+}
+  .cus-btn {
+    border: 2px solid black;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 28px;
+    color: white;
+	background-color:#466ab0;
+    transition: all 0.4s;
+    text-decoration: none;
+  }
+  .navbar-menu {
+    background: white;
+}
+.navbar-nav {
+    list-style: none;
+  
+}
+.nav-link {
+    color: black;
+}
+.nav-link:hover{
+  color:blue;
+  text-decoration:none;
+}
+.nav_button {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.dropdown-menu {
+  background-color: #fff;
+}
+
+.dropdown-menu a {
+  color: #000;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown-item {
+  padding: 0.5rem 1rem;
+}
+
+
