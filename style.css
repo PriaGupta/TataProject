@@ -544,30 +544,43 @@ footer.footer-distributed {
     color: black;
 }
 /* email in footer */
-.subscribe-form {
+.em-form {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.subscribe-form input {
+.em-form input {
     background: #fff;
     border: none;
     box-shadow: none;
     outline: none;
     border-radius: 5px;
-    padding: 15px 14px;
+    padding: 15px 10px;
 }
-.subscribe-form .send-btn label {
+.em-form .send-btn label {
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border-radius: 5px;
     color: black;
-    font-size: 27px;
-    padding: 4px 10px;
+    font-size: 30px;
+    padding: 5px 10px;
     cursor: pointer;
     background: white;
+}
+.sosial-icon {
+    display: flex;
+    gap: 15px;
+}
+.sosial-icon span {
+    background: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sosial-icon span a {
+    color: black;
+    font-size: 24px;
 }
 /* cars */
 .cars-variety {
