@@ -450,10 +450,10 @@
 
 /* ---------FOOTER-------- */
 
-footer.footer-distributed {
+.footer-distributed {
     background-color: #181e23;
 }
-.footer {
+.footer1 {
     margin: 60px 0;
 }
 .foot li {
