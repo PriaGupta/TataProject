@@ -343,6 +343,11 @@
 .cont {
     padding: 50px 0px;
 }
+#contacth {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
 #contactForm {
     border: 2px solid black;
     padding: 30px 30px;
@@ -451,12 +456,15 @@ footer.footer-distributed {
 .footer {
     margin: 60px 0;
 }
+.foot li {
+    position: relative;
+}
 .footer-one ul {
     list-style: none;
 }
 .footer-one a {
     background-color: white;
-    border-radius: 60px;
+    border-radius: 50%;
     font-size: 45px;
 }
 .footer-one img {
@@ -471,7 +479,7 @@ footer.footer-distributed {
     height: 9%;
 }
 .footer-one span {
-    font-size: 13px;
+    font-size: 18px;
     color: white;
 	 display: inline-block;
 }
@@ -487,10 +495,10 @@ footer.footer-distributed {
 }
 .footer-two ul {
     list-style: none;
-    padding: 30px 20px;
+    padding: 20px 20px;
 }
 .footer-two li {
-    margin: 20px 0px;
+    margin: 15px 0px;
 }
 .footer-three {
     color: white;
@@ -519,20 +527,7 @@ footer.footer-distributed {
     color: black;
     font-size: 24px;
 }
-.bttn {
-    display: inline;
-    font-size: 0px;
-    padding: -7px;
-}
-.bttn input {
-    margin: 0 -120px;
-    border-radius: 10px;
-    color: white;
-    background: blue;
-    font-size: 16px;
-    font-weight: 600;
-    padding: 10px 15px;
-}
+ /* last privacy section  */
 .copyright-wrap {
     background: #eff5ff;
     padding: 15px 0;
@@ -547,8 +542,28 @@ footer.footer-distributed {
 .pri a {
     color: black;
 }
-
-/* cars.html*/
+/* email in footer */
+.subscribe-form input {
+    background: #fff;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 15px 14px;
+}
+.subscribe-form .send-btn label {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: black;
+    font-size: 27px;
+    padding: 4px 10px;
+    cursor: pointer;
+    background: white;
+}
+/* cars */
 .cars-variety {
     background-color: #181E23;
 	    color: white;
@@ -585,65 +600,15 @@ footer.footer-distributed {
 	font-weight: 600;
 }
 
-/*----------------dropdownbutton--------*/
-.first .aee #ab:hover {
-    display: none;
-    position: absolute;
-    background-color: #ffff;
-    min-width: 250px;
-    z-index: 1;
-    transition: all 0.3s ease-in-out;
-    margin-top: 15px;
-    border-top: 4px solid #626e85;
-    box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
-    -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
-}
-
-.dropbtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-menu {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-menu a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-menu a:hover {background-color: #181E23;}
-
-.dropdown:hover .dropdown-menu {display: block;}
 
 @media screen and (max-width: 777px) {
     header {
       display: none;
     }
   }
-  #contacth {
-    text-align: center;
-    font-weight: 700;
-    font-size: 30px;
-}
   
-  /*===============visiontata css =============*/
+  
+  /*========== navbar css =============*/
 
  .nav-item {
     padding-right: 25px;
@@ -671,7 +636,6 @@ footer.footer-distributed {
 }
 .navbar-nav {
     list-style: none;
-  
 }
 .nav-link {
     color: black;
