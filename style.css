@@ -725,7 +725,7 @@ span.arrow-left {
      /* left: -4px;  */
   }
   .slick-slide{
-    height: 18% !important;
+    height: 50% !important;
   }
   .slider1 ul.slick-dots {
     display: flex;
@@ -738,8 +738,8 @@ span.arrow-left {
   }
   .slider1 ul.slick-dots li  button {
     display: block;
-    width: 16px;
-    height: 16px;
+    /* width: 16px;
+    height: 16px; */
     padding: 0;
     border: 3px solid #7F72F3;
     border-radius: 100%;
