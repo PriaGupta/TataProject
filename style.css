@@ -632,6 +632,13 @@
   }
   
   
+@media screen and (max-width: 450px) {
+    .slick-slide {
+        height: 18% !important;
+    }
+  }
+
+
   /*========== navbar css =============*/
 
  .nav-item {
@@ -725,7 +732,7 @@ span.arrow-left {
      /* left: -4px;  */
   }
   .slick-slide{
-    height: 50% !important;
+    height: 50% important;
   }
   .slider1 ul.slick-dots {
     display: flex;
