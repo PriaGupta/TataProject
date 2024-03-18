@@ -634,7 +634,7 @@
   
 @media screen and (max-width: 450px) {
     .slick-slide {
-        height: 18% !important;
+       max-height: 150px !important;
     }
   }
 
@@ -732,7 +732,8 @@ span.arrow-left {
      /* left: -4px;  */
   }
   .slick-slide{
-    height: 50% important;
+
+    max-height: 450px;
   }
   .slider1 ul.slick-dots {
     display: flex;
